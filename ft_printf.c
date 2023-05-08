@@ -6,7 +6,7 @@
 /*   By: mberganz <mberganz@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:13:46 by mberganz          #+#    #+#             */
-/*   Updated: 2023/05/08 11:33:39 by mberganz         ###   ########.fr       */
+/*   Updated: 2023/05/08 16:20:48 by mberganz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ int main()
 {
     char    c = 'w';
     char    *s = "PATATA";
-    int     g = -32;
+    int     g = -2147483648;
     int     h = 98;
 	void	*p = "CHanchaaaan";
     unsigned int m = 257;
