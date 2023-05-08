@@ -6,22 +6,11 @@
 /*   By: mberganz <mberganz@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:15:51 by mberganz          #+#    #+#             */
-/*   Updated: 2023/05/04 15:33:37 by mberganz         ###   ########.fr       */
+/*   Updated: 2023/05/08 10:58:57 by mberganz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-/*int print_nbr(int n)
-{
-    int     len;
-    char    *str;
-
-    str = ft_itoa(n);
-    print_str(str);
-    len = ft_strlen(str);
-    free (str);
-    return (len);
-}*/
 
 static int	ft_intlen(int n)
 {
@@ -66,9 +55,22 @@ int	print_nbr(int n)
 	}
 	return (len);
 }
+
+/*int print_nbr(int n)
+{
+    int     len;
+    char    *str;
+
+    str = ft_itoa(n);
+    print_str(str);
+    len = ft_strlen(str);
+    free (str);
+    return (len);
+}*/
+
 /*#include <stdio.h>
 int	main()
 {
-	print_nbr(-10);
+	print_nbr(-1);
 	return (0);
 }*/

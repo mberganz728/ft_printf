@@ -6,7 +6,7 @@
 /*   By: mberganz <mberganz@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:16:15 by mberganz          #+#    #+#             */
-/*   Updated: 2023/05/04 17:44:54 by mberganz         ###   ########.fr       */
+/*   Updated: 2023/05/08 11:35:06 by mberganz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ static int	ft_intlen(size_t n)
 	int	i;
 
 	i = 0;
-	if (n == 0)
-		return (1);
 	while (n >= 16)
 	{
 		n = n / 16;

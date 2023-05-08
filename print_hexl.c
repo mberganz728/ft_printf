@@ -6,7 +6,7 @@
 /*   By: mberganz <mberganz@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:16:37 by mberganz          #+#    #+#             */
-/*   Updated: 2023/05/04 17:38:31 by mberganz         ###   ########.fr       */
+/*   Updated: 2023/05/08 11:35:22 by mberganz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ static int	ft_intlenhex(unsigned int n)
 	int	i;
 
 	i = 0;
-	if (n >= 48 && n <= 57)
-		return (1);
 	while (n >= 16)
 	{
 		n = n / 16;
